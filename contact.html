@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - Frank's Automotive</title>
+</head>
+<body style="background-image: url('nurb.png'); font-family: Verdana; color: white; text-align: center; background-size: cover; background-position: top;">
+<style>
+    .btn-link {
+      display: inline-block;
+      background-color: #00000061;
+      color: white;
+      padding: 12px 30px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      margin: 20px auto 0 auto;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      font-family: Verdana, sans-serif;
+      display: block;
+      max-width: 200px;
+    }
+    </style>
+    <h1>Contact Frank's Automotive</h1>
+    <h3>We'd love to hear from you! Fill out the form below or reach us via email.</h3>
+
+    <form action="mailto:your-email@example.com" method="POST" enctype="text/plain" style="margin:auto; width: 50%;">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Send">
+    </form>
+
+    <br>
+    <a href="home.html" class="btn-link">Back to Home</a>
+
+</body>
+</html>

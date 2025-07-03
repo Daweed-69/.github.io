@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frank's Automotive</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #ff0000;
+      background-image: url('');
+      background-size: cover;
+      background-position: center;
+      font-family: Verdana, sans-serif;
+      color: rgb(255, 255, 255);
+    }
+
+    header {
+      background-color: rgba(211, 0, 0, 0.457);
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    header img {
+      width: 300px;
+      height: 250px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
+    .hero-img {
+      width: 100%;
+      max-width: 1000px;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+      border-radius: 12px;
+    }
+
+    .content {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 12px;
+    }
+
+    h2, h3 {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    .car-section {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .car-section img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 8px;
+      margin: 10px 0;
+    }
+
+    .btn-link {
+      display: inline-block;
+      background-color: #ff0000;
+      color: rgb(255, 255, 255);
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-link:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <!-- Logo image (local file) -->
+    <img src="franklogo.png" alt="Frank's Automotive Logo" width="500" height="100">
+    <h1>Frank's Automotive</h1>
+  </header>
+
+  <img class="hero-img" src="https://www.gtspiritmedia.com/gtspirit/uploads/2015/01/Supercars-3.jpeg" alt="Frank's Automotive Showroom" />
+
+  <div class="content">
+    <h2>What is Frank's Automotive?</h2>
+    <p>
+      Frank's Automotive provides the state of Los Angeles with the widest range of exotic cars in the United States.<br>
+      We stock a stunning selection of performance vehicles including Lamborghini, Ferrari, McLaren, Aston Martin, and Porsche.<br>
+      You'll also find rare models from Nissan (GTR), Lexus (LFA), and more.
+    </p>
+
+    <h2>Available Cars</h2>
+
+    <!-- Ferrari -->
+    <div class="car-section">
+      <h3>Ferrari LaFerrari</h3>
+      <img src="https://www.pngmart.com/files/15/Superfast-Red-Ferrari-PNG-Transparent-Image.png" alt="Ferrari LaFerrari" width="500">
+      <p>Price: $1.2M<br>Miles: 2763</p>
+      <a href="Ferrari.html" class="btn-link">LaFerrari Specifications</a>
+    </div>
+
+    <!-- Lexus LFA -->
+    <div class="car-section">
+      <h3>Lexus LFA</h3>
+      <img src="https://www.pngmart.com/files/22/Lexus-Lfa-PNG-File.png" alt="Lexus LFA" width="450">
+      <p>Price: $1.4M<br>Miles: 5732</p>
+      <a href="Lexus.html" class="btn-link">LFA Specifications</a>
+    </div>
+
+    <!-- McLaren P1 -->
+    <div class="car-section">
+      <h3>McLaren P1</h3>
+      <img src="Mclaren.png" alt="McLaren P1" width="600">
+      <p>Price: $1.35M<br>Miles: 8322</p>
+      <a href="mclaren.html" class="btn-link">P1 Specifications</a>
+    </div>
+
+    <!--Lamborghini Gallardo -->
+    <div class="car-section">
+      <h3>Lamborghini Gallardo</h3>
+      <img src="Gallardo.png" alt="Lamborghini Gallardo" width="475">
+      <p>Price: $284K<br>Miles: 19756</p>
+      <a href="Lamborghini.html" class="btn-link">Gallardo Specifications</a>
+    </div>
+
+    <!--Nissan GTR -->
+    <div class="car-section">
+      <h3>Nissan GTR</h3>
+      <img src="GTR.png" alt="Nissan GTR" width="475">
+      <p>Price: $100K<br>Miles: 15714</p>
+      <a href="GTR.html" class="btn-link">GTR Specifications</a>
+    </div>
+
+    <!-- Contact Us -->
+    <div class="car-section">
+      <a href="contact.html" class="btn-link" style="font-size: 18px;"> Contact Us</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Frank's Automotive | Los Angeles, CA</p>
+  </footer>
+
+</body>
+</html>
